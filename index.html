@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAYKAR - Melih</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.default.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!--NAVBAR-->
+    <nav>
+      <div
+        class="container align-items-center d-flex justify-content-between py-3"
+      >
+        <a href="/" class="nav-logo d-flex align-items-center">Collers</a>
+
+        <div
+          class="nav-menu d-none d-md-flex justify-content-between gap-sm-1 gap-md-2 gap-lg-4"
+        >
+          <a href="#" class="d-flex align-items-center">Products</a>
+          <a href="#" class="d-flex align-items-center">Solutions</a>
+          <a href="#" class="d-flex align-items-center">Pricing</a>
+          <a href="#" class="d-flex align-items-center">Resources</a>
+          <a href="#" class="d-flex align-items-center">Log In</a>
+
+          <a href="#" class="custom-btn custom-btn-m custom-btn-brown"
+            >Sign up now</a
+          >
+        </div>
+
+        <a
+          data-bs-toggle="offcanvas"
+          href="#offcanvasExample"
+          role="button"
+          aria-controls="offcanvasExample"
+          class="d-md-none nav-btn"
+        >
+          <img src="./images/menu-scale.svg" alt="" />
+        </a>
+      </div>
+    </nav>
+
+    <div
+      class="offcanvas bg-light-yellow offcanvas-start w-100"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <a href="/" class="nav-logo d-flex align-items-center">Collers</a>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body d-flex flex-column gap-3">
+        <a href="#" class="">Products</a>
+        <a href="#" class="">Solutions</a>
+        <a href="#" class="">Pricing</a>
+        <a href="#" class="">Resources</a>
+        <a href="#" class="">Log In</a>
+
+        <div class="custom-btn-nav custom-btn-m custom-btn-brown">
+          Sign up now
+        </div>
+      </div>
+    </div>
+
+    <!--NAVBAR END-->
+
+    <!--HEADER-->
+    <header class="header-section d-flex flex-column w-100">
+      <div class="header-section-content z-3">
+        <div class="container py-5">
+          <div
+            class="d-flex justify-content-between align-items-center row mb-5 pb-4"
+          >
+            <div
+              class="col-md-7 col-12 d-flex flex-column gap-3 pt-lg-3 pt-md-2"
+            >
+              <p class="header-section-title-text">Collectible Sneakers</p>
+              <p class="header-section-little-text">
+                Sit elit feugiat turpis sed integer integer accumsan turpis. Sed
+                suspendisse nec lorem mauris. Pharetra, eu imperdiet ipsum
+                ultrices amet.
+              </p>
+
+              <div
+                class="d-flex justify-content-center justify-content-sm-start gap-2 gap-md-4"
+              >
+                <a
+                  href="#"
+                  class="custom-btn custom-btn-l custom-btn-brown fw-medium me-4 me-md-0"
+                  >Sign up now</a
+                >
+                <a
+                  href="#"
+                  class="watch-btn text-brown d-flex justify-content-between align-items-center text-m gap-1 gap-md-2 fs-1"
+                >
+                  <i class="fa-regular fa-circle-play"></i>
+                  Watch Demo
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-5 col-12">
+              <div
+                class="position-relative d-flex justify-content-center align-items-center"
+              >
+                <div class="header-content-img-bg"></div>
+                <img
+                  class="header-content-img"
+                  src="./images/hero-img.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="d-flex justify-content-between align-items-center row my-5 pt-5"
+          >
+            <div
+              class="col-md-4 d-flex flex-column align-items-lg-start align-items-center gap-2 pe-lg-5 pe-0"
+            >
+              <div class="position-relative header-section-icon-wrapper-2">
+                <div
+                  class="position-absolute header-section-icon-rect-1 d-flex justify-content-end"
+                >
+                  <img src="./images/rectangle-blue.svg" alt="" />
+                </div>
+                <img
+                  class="header-section-icon"
+                  src="./images/prizeicon.svg"
+                  alt=""
+                />
+              </div>
+              <p class="text-subtitle">Nibh viverra</p>
+              <p class="p-text-subtitle">
+                Sit bibendum donec dolor fames neque vulputate non sit aliquam.
+                Consequat turpis natoque leo, massa.
+              </p>
+            </div>
+
+            <div
+              class="col-md-4 d-flex flex-column align-items-lg-start align-items-center gap-2 pe-lg-5 pe-0"
+            >
+              <div class="position-relative header-section-icon-wrapper-2">
+                <div
+                  class="position-absolute header-section-icon-rect-2 d-flex justify-content-end"
+                >
+                  <img src="./images/rectangle-green.svg" alt="" />
+                </div>
+                <img
+                  class="header-section-icon"
+                  src="./images/tunnelicon.svg"
+                  alt=""
+                />
+              </div>
+              <p class="text-subtitle">Nibh viverra</p>
+              <p class="p-text-subtitle">
+                Sit bibendum donec dolor fames neque vulputate non sit aliquam.
+                Consequat turpis natoque leo, massa.
+              </p>
+            </div>
+
+            <div
+              class="col-md-4 d-flex flex-column align-items-lg-start align-items-center gap-2 pe-lg-5 pe-0"
+            >
+              <div class="position-relative header-section-icon-wrapper">
+                <div
+                  class="position-absolute header-section-icon-rect-3 d-flex justify-content-end"
+                >
+                  <img src="./images/circle-purple.svg" alt="" />
+                </div>
+                <img
+                  class="header-section-icon"
+                  src="./images/tvicon.svg"
+                  alt=""
+                />
+              </div>
+              <p class="text-subtitle">Nibh viverra</p>
+              <p class="p-text-subtitle">
+                Sit bibendum donec dolor fames neque vulputate non sit aliquam.
+                Consequat turpis natoque leo, massa.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--HEADER END-->
+
+    <!--SHOP SECTİON-->
+    <section class="shop-section py-5">
+      <div class="container z-3">
+        <div
+          class="d-flex flex-column flex-md-row gap-3 gap-md-0 justify-content-md-between align-items-center"
+        >
+          <div class="heading-4 pb-2">The best of the best</div>
+          <div class="custom-btn-best custom-btn-l custom-btn-white">
+            Sign up now
+          </div>
+        </div>
+
+        <div
+          class="my-5 d-flex flex-column flex-md-row gap-5 gap-md-0 align-items-center justify-content-between position-relative row"
+        >
+          <div class="shop-card">
+            <img src="./images/shop1.png" alt />
+            <div class="p-4">
+              <p class="shop-title">Title</p>
+              <p class="shop-content">
+                Egestas elit dui scelerisque ut eu purus aliquam vitae
+                habitasse.
+              </p>
+              <div
+                class="d-block w-100 custom-btn custom-btn-m custom-btn-white"
+              >
+                <i class="fa-solid fa-cart-shopping mx-1"></i>
+                Buy Now
+              </div>
+            </div>
+          </div>
+
+          <div class="shop-card">
+            <img src="./images/shop2.png" alt />
+            <div class="p-4">
+              <p class="shop-title">Title</p>
+              <p class="shop-content">
+                Egestas elit dui scelerisque ut eu purus aliquam vitae
+                habitasse.
+              </p>
+              <div
+                class="d-block w-100 custom-btn custom-btn-m custom-btn-white"
+              >
+                <i class="fa-solid fa-cart-shopping mx-1"></i>
+                Buy Now
+              </div>
+            </div>
+          </div>
+
+          <div class="shop-card">
+            <img src="./images/shop3.png" alt />
+            <div class="p-4">
+              <p class="shop-title">Title</p>
+              <p class="shop-content">
+                Egestas elit dui scelerisque ut eu purus aliquam vitae
+                habitasse.
+              </p>
+              <div
+                class="d-block w-100 custom-btn custom-btn-m custom-btn-white"
+              >
+                <i class="fa-solid fa-cart-shopping mx-1"></i>
+                Buy Now
+              </div>
+            </div>
+          </div>
+
+          <img class="rect-bg-1" src="./images/rectangle-pink.svg" alt />
+          <img class="rect-bg-2" src="./images/square-blue.svg" alt />
+          <img
+            class="rect-bg-3 d-none d-md-block"
+            src="./images/square-brown.svg"
+            alt
+          />
+          <img class="rect-bg-4" src="./images/square-purple.svg" alt />
+          <img
+            class="rect-bg-5 d-none d-md-block"
+            src="./images/square-green.svg"
+            alt
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="promotion-section pb-5">
+      <div
+        class="container my-5 bg-white py-3 p-md-5 d-flex flex-column flex-md-row promotion-section-wrap row-gap-5"
+      >
+        <div
+          class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center align-items-md-start y-5 my-md-0"
+        >
+          <div class="heading-2">Why join us</div>
+
+          <div class="mt-3 w-100 pb-3">
+            <div class="d-flex gap-1 align-items-center">
+              <i class="fa-solid fa-check green-text-color"></i>
+              <p class="m-0 p-0 promotion-section-title">
+                Est et in pharetra magna adipiscing ornare aliquam.
+              </p>
+            </div>
+
+            <div class="d-flex gap-1 align-items-center">
+              <i class="fa-solid fa-check green-text-color"></i>
+              <p class="m-0 p-0 promotion-section-title">
+                Tellus arcu sed consequat ac velit ut eu blandit.
+              </p>
+            </div>
+
+            <div class="d-flex gap-1 align-items-center">
+              <i class="fa-solid fa-check green-text-color"></i>
+              <p class="m-0 p-0 promotion-section-title">
+                Ullamcorper ornare in et egestas dolor orci.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="custom-btn custom-btn-m custom-btn-brown mt-3 z-3 fw-medium"
+          >
+            Sign up now
+          </div>
+        </div>
+
+        <div class="col-12 p-auto col-md-6 container-relative">
+          <div class="screen-card-wrap">
+            <div class="screen-card-wrap-top d-flex">
+              <div class="screen-top-circle"></div>
+              <div class="screen-top-circle"></div>
+              <div class="screen-top-circle"></div>
+            </div>
+            <div class="screen-card-wrap-body">
+              <img src="./images/video.jpg" alt />
+            </div>
+          </div>
+
+          <img
+            class="rect-bg rect-bg-1-1"
+            src="./images/yellow-rectangle.svg"
+            alt
+          />
+          <img
+            class="rect-bg rect-bg-1-2"
+            src="./images/square-brown.png"
+            alt
+          />
+          <img
+            class="rect-bg rect-bg-1-3"
+            src="./images/rectangle-pink.svg"
+            alt
+          />
+          <img
+            class="rect-bg rect-bg-1-4"
+            src="./images/square-purple-radius.svg"
+            alt
+          />
+          <img class="rect-bg rect-bg-1-5" src="./images/circle-blue.svg" alt />
+          <img
+            class="rect-bg rect-bg-1-6"
+            src="./images/green-circle.svg"
+            alt
+          />
+        </div>
+      </div>
+    </section>
+    <!--SHOP SECTİON END-->
+
+    <!--COMMENT SECTİON-->
+    <section class="comment-section py-5 my-md-5">
+      <div class="container pb-3 row-gap-5">
+        <div
+          class="col-12 col-md-6 d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center align-items-md-start w-100 my-md-0"
+        >
+          <div class="heading-2">Because they love us</div>
+          <div class="d-none d-md-flex gap-3">
+            <div id="prev-btn" class="btn-arrow">
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div id="next-btn" class="btn-arrow">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider -->
+      <div class="col-12 position-relative pt-3">
+        <div
+          id="comment-carousel"
+          class="owl-carousel owl-theme slider-container mx-auto"
+        >
+          <div class="slide">
+            <div class="d-flex">
+              <img
+                class="img-logo"
+                src="./images/zoomer.svg"
+                alt="Zoomer Logo"
+              />
+            </div>
+            <p>
+              Non risus viverra enim, quis. Eget vitae arcu vivamus sit tellus,
+              viverra turpis lorem. Varius a turpis urna id porttitor.
+            </p>
+            <div class="d-flex gap-2">
+              <img class="img-user" src="./images/User1.png" alt="User 1" />
+              <div class="d-flex justify-content-center flex-column">
+                <p class="user-name">Hellen Jummy</p>
+                <p class="user-title">Team Lead</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="d-flex">
+              <img
+                class="img-logo"
+                src="./images/sheels.svg"
+                alt="Sheels Logo"
+              />
+            </div>
+            <p>
+              Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet
+              enim. Sit purus venenatis velit semper lectus sed ornare quam
+              nulla.
+            </p>
+            <div class="d-flex gap-2">
+              <img class="img-user" src="./images/User2.png" alt="User 2" />
+              <div class="d-flex justify-content-center flex-column">
+                <p class="user-name">Hellena John</p>
+                <p class="user-title">Co-founder</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="d-flex">
+              <img
+                class="img-logo"
+                src="./images/artvenue.svg"
+                alt="Artvenue Logo"
+              />
+            </div>
+            <p>
+              A eget sed posuere dui risus habitasse mauris. Venenatis aliquet
+              id ultrices a lacus. Pretium vehicula pretium posuere justo sed.
+            </p>
+            <div class="d-flex gap-2">
+              <img class="img-user" src="./images/User3.png" alt="User 3" />
+              <div class="d-flex justify-content-center flex-column">
+                <p class="user-name">David Oshodi</p>
+                <p class="user-title">Team Lead</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="d-flex">
+              <img
+                class="img-logo"
+                src="./images/zoomer.svg"
+                alt="Zoomer Logo"
+              />
+            </div>
+            <p>
+              Magna egestas aliquet ut integer non. Sed diam enim nibh sit.
+              Aliquam laoreet aenean metus nibh eu scelerisque.
+            </p>
+            <div class="d-flex gap-2">
+              <img class="img-user" src="./images/User4.png" alt="User 4" />
+              <div class="d-flex justify-content-center flex-column">
+                <p class="user-name">Manager</p>
+                <p class="user-title">Manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--COMMENT SECTİON END-->
+
+    <!--GROW SECTİON-->
+    <section class="main-section pt-3">
+      <div
+        class="container d-flex flex-column gap-4 justify-content-center pb-md-5 justify-content-md-between align-items-center align-items-md-start"
+      >
+        <div class="heading-2">Grow your collection</div>
+        <p>
+          Enim neque massa porta adipiscing elit. Sem libero id faucibus nibh
+          amet dictum pellentesque sed. Eu non turpis risus odio sapien, fames
+          sit rhoncus. Nec magna sed interdum sit purus tellus. Et volutpat
+          proin neque placerat at bibendum quam tellus.
+        </p>
+      </div>
+
+      <div
+        class="container d-flex flex-row flex-wrap gap-4 justify-content-center justify-content-md-between align-items-center align-items-md-start"
+      >
+        <div class="col-12 overflow-hidden">
+          <div
+            id="main-section-carousel"
+            class="owl-carousel owl-theme d-md-none"
+          >
+            <div
+              class="main-section-btn main-section-btn-active d-flex gap-3 align-items-center py-2"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <p>Bibendum tellus</p>
+            </div>
+            <div
+              class="main-section-btn active d-flex gap-3 align-items-center py-2"
+            >
+              <img src="./images/shield-check-icon.svg" alt="" />
+              Cras eget
+            </div>
+
+            <div
+              class="main-section-btn active d-flex gap-3 align-items-center py-2"
+            >
+              <img src="./images/rocket-icon.svg" alt="" />
+              Dolor pharetra
+            </div>
+
+            <div
+              class="main-section-btn active d-flex gap-3 align-items-center py-2"
+            >
+              <img src="./images/monitor.svg" alt="" />
+              Amet, fringilla
+            </div>
+
+            <div
+              class="main-section-btn active d-flex gap-3 align-items-center py-2"
+            >
+              <img src="./images/frequency-icon.svg" alt="" />
+              Amet nibh
+            </div>
+
+            <div
+              class="main-section-btn active d-flex gap-3 align-items-center py-2"
+            >
+              <img src="./images/settings.svg" alt="" />
+              Sed velit
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-12 col-md-3 d-none d-md-flex flex-column gap-2 align-items-start"
+        >
+          <div
+            class="main-section-btn main-section-btn-active d-flex gap-3 align-items-center py-2"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <p>Bibendum tellus</p>
+          </div>
+          <div
+            class="main-section-btn active d-flex gap-3 align-items-center py-2"
+          >
+            <img src="./images/shield-check-icon.svg" alt="" />
+            Cras eget
+          </div>
+
+          <div
+            class="main-section-btn active d-flex gap-3 align-items-center py-2"
+          >
+            <img src="./images/rocket-icon.svg" alt="" />
+            Dolor pharetra
+          </div>
+
+          <div
+            class="main-section-btn active d-flex gap-3 align-items-center py-2"
+          >
+            <img src="./images/monitor.svg" alt="" />
+            Amet, fringilla
+          </div>
+
+          <div
+            class="main-section-btn active d-flex gap-3 align-items-center py-2"
+          >
+            <img src="./images/frequency-icon.svg" alt="" />
+            Amet nibh
+          </div>
+
+          <div
+            class="main-section-btn active d-flex gap-3 align-items-center py-2"
+          >
+            <img src="./images/settings.svg" alt="" />
+            Sed velit
+          </div>
+        </div>
+
+        <div class="col-12 col-md-8 position-relative">
+          <div class="w-75 position-absolute main-section-screen1">
+            <div class="screen-card-wrap">
+              <div class="screen-card-wrap-top d-flex">
+                <div class="screen-top-circle"></div>
+                <div class="screen-top-circle"></div>
+                <div class="screen-top-circle"></div>
+              </div>
+              <div class="screen-card-wrap-body">
+                <img src="./images/video.jpg" alt />
+              </div>
+            </div>
+          </div>
+
+          <div class="w-75 position-absolute main-section-screen2">
+            <div class="screen-card-wrap">
+              <div class="screen-card-wrap-top d-flex">
+                <div class="screen-top-circle"></div>
+                <div class="screen-top-circle"></div>
+                <div class="screen-top-circle"></div>
+              </div>
+              <div class="screen-card-wrap-body">
+                <img src="./images/shop2.png" alt />
+              </div>
+            </div>
+          </div>
+
+          <div class="w-25 position-absolute main-section-screen3">
+            <div class="screen-card-wrap">
+              <div class="screen-card-wrap-body-2">
+                <img src="./images/mini-img.png" alt />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--GROW SECTİON END-->
+
+      <!--WORLD SECTİON-->
+      <div class="curly-brown"></div>
+      <div class="curly-light-yellow"></div>
+      <div class="curly-yellow"></div>
+    </section>
+    <section class="world-section pb-5 pt-md-0 pt-5 justify-content-center">
+      <div
+        class="container d-flex justify-content-md-center align-items-center position-relative"
+      >
+        <img class="world-img" src="./images/world.svg" alt="" />
+
+        <div class="world-pin world-pin-l pin-1">
+          <div class="col-2">
+            <img src="./images/col.png" alt />
+          </div>
+        </div>
+        <div class="world-pin world-pin-s pin-2"></div>
+        <div class="world-pin world-pin-l pin-3"></div>
+        <div class="world-pin world-pin-m pin-4"></div>
+        <div class="world-pin world-pin-s pin-5"></div>
+        <div class="world-pin world-pin-s pin-6"></div>
+        <div class="world-pin world-pin-s pin-7"></div>
+        <div class="world-pin world-pin-s pin-8"></div>
+        <div class="world-pin world-pin-s pin-9"></div>
+        <div class="world-pin world-pin-s pin-10"></div>
+        <div class="position-absolute pin-1-tooltip">
+          <div class="tooltip-img main-section-screen3">
+            <div class="screen-card-wrap"></div>
+          </div>
+        </div>
+        <div class="position-absolute world-text pt-5">
+          <p class="heading-5 pb-4 m-0">11,658,467</p>
+          <p class="heading-3 m-0">Shoes Collected</p>
+        </div>
+      </div>
+    </section>
+    <!--WORLD SECTİON END-->
+
+    <!--FOOTER-->
+    <footer class="">
+      <div
+        class="container d-flex flex-column flex-md-row py-5 gap-5 gap-md-0 footer-border px-0"
+      >
+        <div
+          class="col-12 col-md-3 d-flex flex-column align-items-center align-items-md-start gap-3"
+        >
+          <a href="" class="subtitle">Product</a>
+          <a href="" class="footer-m">Pricing</a>
+          <a href="" class="footer-m">Overview</a>
+          <a href="" class="footer-m">Browse</a>
+          <a href="" class="footer-m">Accessibility</a>
+          <a href="" class="footer-m">Five</a>
+        </div>
+
+        <div
+          class="col-12 col-md-3 d-flex flex-column align-items-center align-items-md-start gap-3"
+        >
+          <a href="" class="subtitle">Solutions</a>
+          <a href="" class="footer-m">Brainstorming</a>
+          <a href="" class="footer-m">Ideation</a>
+          <a href="" class="footer-m">Wireframing</a>
+          <a href="" class="footer-m">Research</a>
+          <a href="" class="footer-m">Design</a>
+        </div>
+
+        <div
+          class="col-12 col-md-3 d-flex flex-column align-items-center align-items-md-start gap-3"
+        >
+          <a href="" class="subtitle">Support</a>
+          <a href="" class="footer-m">Contact Us</a>
+          <a href="" class="footer-m">Developers</a>
+          <a href="" class="footer-m">Documentation</a>
+          <a href="" class="footer-m">Integrations</a>
+          <a href="" class="footer-m">Reports</a>
+        </div>
+
+        <div
+          class="col-12 col-md-3 d-flex flex-column justify-content-between gap-4 gap-md-0"
+        >
+          <div
+            class="d-flex flex-column align-items-center align-items-md-start gap-2"
+          >
+            <p class="subtitle">Get the App</p>
+            <a href="">
+              <img src="./images/AppStore.png" alt="" />
+            </a>
+
+            <a href="">
+              <img src="./images/GooglePlay.png" alt="" />
+            </a>
+          </div>
+          <div
+            class="d-flex flex-column align-items-center align-items-md-start gap-2"
+          >
+            <p class="footer-m">Follow Us</p>
+            <div class="d-flex gap-3 social-media">
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin-in"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container d-flex flex-column justify-content-between align-items-center gap-3 gap-md-0 flex-md-row py-4 px-md-0 copyright"
+      >
+        <p class="">Collers @ 2023. All rights reserved.</p>
+        <div class="d-flex gap-4">
+          <a href="">Terms</a>
+          <a href="">Privacy</a>
+          <a href="">Contact</a>
+
+          <div href="" class="d-flex align-items-center gap-md-2 gap-1">
+            <img class="lang-icon" src="./images/worldicon.svg" alt="" />
+            <a href="">EN</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--FOOTER END-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+    <script src="./javaScript/script.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
